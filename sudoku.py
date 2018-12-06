@@ -1,4 +1,3 @@
-
 # setting row and column indexes
 n = 3
 nn = n * n
@@ -156,7 +155,7 @@ def solve_grid(matrix):
 
 #program starts here
 if not solve_grid(my_2d_arry_n9):
-    print('The Soduku1 is unsolveable')
+    print('The Soduku is unsolveable')
 else:
     print('Soduku solved')
     print_grid(my_2d_arry_n9)
